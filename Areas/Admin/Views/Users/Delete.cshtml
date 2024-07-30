@@ -1,0 +1,72 @@
+﻿@model demo2.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>User</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.TKND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TKND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TenND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TenND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SDTND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SDTND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EmailND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EmailND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MatKhauND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MatKhauND)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

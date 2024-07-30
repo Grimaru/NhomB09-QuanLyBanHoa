@@ -1,0 +1,90 @@
+﻿@model IEnumerable<demo2.Models.AdminUser>
+
+@{
+    ViewBag.Title = "Quản lý người dùng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@{
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel="stylesheet" href="~/Content/sanpham.css" />
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0; /* Không có khoảng cách giữa các ô */
+        width: 100%; /* Bảng chiếm toàn bộ chiều rộng của container */
+    }
+
+        table th, table td {
+            border: 1px solid black; /* Đường viền 1 pixel màu đen */
+            padding: 8px; /* Khoảng cách bên trong ô */
+            text-align: left; /* Căn lề trái */
+            height: 5px; /* Chiều cao mỗi ô là 5px */
+        }
+
+        table th {
+            background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+        }
+
+        table td {
+            vertical-align: top; /* Căn đỉnh các ô */
+        }
+
+    .action-buttons button {
+        margin-right: 5px; /* Khoảng cách giữa các nút */
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Quản lý admin</title>
+</head>
+<body>
+    <button>
+        @Html.ActionLink("➕", "Create")
+    </button>
+    <table class="table">
+        <tr>
+            <th>
+                Họ Tên Admin
+            </th>
+            <th>
+                Mật Khẩu
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoTen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MatKhau)
+                </td>
+                <td>
+                    <button>@Html.ActionLink("✏️", "Edit", new { id = item.TenTK })</button>
+                    <button>@Html.ActionLink("📄", "Details", new { id = item.TenTK }) </button>
+                    <button>@Html.ActionLink("🗑️", "Delete", new { id = item.TenTK })</button>
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

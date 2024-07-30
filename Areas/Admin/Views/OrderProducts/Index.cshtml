@@ -1,0 +1,98 @@
+﻿@model IEnumerable<demo2.Models.OrderProduct>
+
+@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@{
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel="stylesheet" href="~/Content/sanpham.css" />
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0; /* Không có khoảng cách giữa các ô */
+        width: 100%; /* Bảng chiếm toàn bộ chiều rộng của container */
+    }
+
+        table th, table td {
+            border: 1px solid black; /* Đường viền 1 pixel màu đen */
+            padding: 8px; /* Khoảng cách bên trong ô */
+            text-align: left; /* Căn lề trái */
+            height: 5px; /* Chiều cao mỗi ô là 5px */
+        }
+
+        table th {
+            background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+            border: 1px solid black;
+        }
+
+        table td {
+            vertical-align: top; /* Căn đỉnh các ô */
+        }
+
+    .action-buttons button {
+        margin-right: 5px; /* Khoảng cách giữa các nút */
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Quản lý đơn hàng</title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th>
+                Ngày Đặt Hàng
+            </th>
+            <th>
+                Địa Chỉ Giao Hàng
+            </th>
+            <th>
+                Tên người dùng
+            </th>
+            <th>
+                Code Voucher
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayDH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Diachigiaohang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenND)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodeVoucher)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.IDOP }) |*@
+                    <button>@Html.ActionLink("📄", "Details", new { id = item.IDOP }) </button>
+                    @*@Html.ActionLink("Delete", "Delete", new { id=item.IDOP })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

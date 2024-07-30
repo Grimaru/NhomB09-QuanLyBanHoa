@@ -1,0 +1,49 @@
+﻿@model demo2.Models.Product
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<script>
+    function ChangeImage(UploadImage, previewImg) {
+        if (UploadImage.files && UploadImage.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $(previewImg).attr('scr', e.target.result);
+            }
+            reader.readAsDataURL(UploadImage.files[0]);
+        }
+    }
+</script>
+
+<h2>THÊM MỚI SẢN PHẨM</h2>
+@using (Html.BeginForm("Create", "Admin", FormMethod.Post, new { enctype = "multipart/from-data" }))
+{
+    <table class="table-bordered">
+        <tr>
+            <td> @Html.LabelFor(model => model.TenSP)</td>
+            <td> @Html.EditorFor(model => model.TenSP)</td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(model => model.GiaSP)</td>
+            <td> @Html.EditorFor(model => model.GiaSP)</td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(model => model.MotaSP)</td>
+            <td> @Html.EditorFor(model => model.MotaSP)</td>
+        </tr>
+        <tr>
+            <td> @Html.LabelFor(model => model.HinhanhSP)</td>
+            <td>
+                <img src="@Url.Content(Model.HinhanhSP)" height="150" width="150" id="previewImg" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="file" name="UploadImage" value="Thêm ảnh" onchange="ChangeImage(this, document.getElementById('previewImg'))" />
+                <input type="submit" name="Tạo mới" value="Tạo Mới"/>
+            </td>
+        </tr>
+    </table>
+}

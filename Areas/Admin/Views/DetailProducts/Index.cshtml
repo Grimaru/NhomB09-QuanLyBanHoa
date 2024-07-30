@@ -1,0 +1,149 @@
+﻿@model demo2.ViewModels.ReportOrderViewModel
+
+@{
+    ViewBag.Title = "Quản lý đơn hàng";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel="stylesheet" href="~/Content/sanpham.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+        table th, table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            height: 5px;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+
+        table td {
+            vertical-align: top;
+        }
+
+    .action-buttons button {
+        margin-right: 5px;
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Quản lý chi tiết đơn hàng</title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th>Số Lượng Sản Phẩm</th>
+            <th>Tổng Tiền</th>
+            <th>Địa Chỉ Giao Hàng</th>
+            <th>Tên Sản Phẩm</th>
+            <th>Code Voucher</th>
+            <th></th>
+        </tr>
+
+        @if (Model.DetailProducts != null && Model.DetailProducts.Any())
+        {
+            foreach (var item in Model.DetailProducts)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Soluong)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TongTien)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderProduct.Diachigiaohang)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Product.TenSP)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderProduct.CodeVoucher)</td>
+                    <td>
+                        <button>@Html.ActionLink("🖨️", "XuatHoaDon", new { id = item.ID })</button>
+                        <button>@Html.ActionLink("📄", "Details", new { id = item.ID })</button>
+                        @*@Html.ActionLink("Delete", "Delete", new { id=item.ID })*@
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6">No data available</td>
+            </tr>
+        }
+    </table>
+    <div class="container">
+        <h3>Thống kê dạng bảng</h3>
+        <canvas id="orderChart"></canvas>
+        <script>
+            var ctx = document.getElementById('orderChart').getContext('2d');
+            var chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: @Html.Raw(Json.Encode(Model.TenSanPham)),
+                    datasets: [{
+                        label: 'Số lượng sản phẩm',
+                        data: @Html.Raw(Json.Encode(Model.SoLuongSanPham)),
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Pink color for bars
+                        borderColor: 'rgba(255, 99, 132, 1)', // Pink border for bars
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Tên sản phẩm'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Số lượng'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return tooltipItem.dataset.label + ': ' + tooltipItem.raw;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <h3>Thống kê dạng chữ</h3>
+        <p>Tổng doanh thu: @Model.TongDoanhThu.ToString("C", format)</p>
+        <p>Khách hàng mua nhiều nhất: @Model.KhachHangTop1</p>
+        <p>Sản phẩm được mua nhiều nhất: @Model.SanPhamBestSeller</p>
+        <p>Số lượng sản phẩm được mua nhiều nhất: @Model.SoLuongBestSeller</p>
+    </div>
+</body>
+</html>

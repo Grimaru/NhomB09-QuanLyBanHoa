@@ -1,0 +1,108 @@
+﻿@model IEnumerable<demo2.Models.Product>
+
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@{
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel="stylesheet" href="~/Content/sanpham.css" />
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0; /* Không có khoảng cách giữa các ô */
+        width: 100%; /* Bảng chiếm toàn bộ chiều rộng của container */
+    }
+
+        table th, table td {
+            border: 1px solid black; /* Đường viền 1 pixel màu đen */
+            padding: 8px; /* Khoảng cách bên trong ô */
+            text-align: left; /* Căn lề trái */
+            height: 5px; /* Chiều cao mỗi ô là 5px */
+        }
+
+        table th {
+            background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+        }
+
+        table td {
+            vertical-align: top; /* Căn đỉnh các ô */
+        }
+
+    .action-buttons button {
+        margin-right: 5px; /* Khoảng cách giữa các nút */
+    }
+</style>
+
+<div class="headline">
+    <h3> Danh Sách Sản phẩm </h3>
+</div>
+
+<button style="text-decoration: none;">
+    @Html.ActionLink("➕", "Create")
+</button>
+<div class="wrapper">
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <th>
+                        ID Sản Phẩm
+                    </th>
+                    <th>
+                        Tên Sản Phẩm
+                    </th>
+                    <th>
+                        Mô Tả Sản Phẩm
+                    </th>
+                    <th>
+                        Giá Sản Phẩm
+                    </th>
+                    <th>
+                        Hình Ảnh
+                    </th>
+                    <th>
+                        Thao Tác
+                    </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IDSP)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenSP)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MotaSP)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.GiaSP)
+                        </td>
+                        <td>
+                            <img src="@Url.Content(item.HinhanhSP)" alt="Hình ảnh" height="50" width="50" />
+                        </td>
+                        <td class="action-buttons">
+                            <button>@Html.ActionLink("✏️", "Edit", new { id = item.IDSP })</button>
+                            <button>@Html.ActionLink("🗑️", "Delete", new { id = item.IDSP })</button>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

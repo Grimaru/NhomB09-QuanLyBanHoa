@@ -1,0 +1,66 @@
+﻿@model demo2.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>User</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.TKND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TKND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TenND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TenND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SDTND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SDTND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EmailND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EmailND)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MatKhauND)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MatKhauND)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IDUser }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

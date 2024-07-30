@@ -1,0 +1,57 @@
+﻿@model demo2.Models.OrderProduct
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>OrderProduct</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.NgayDH)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayDH)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Diachigiaohang)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Diachigiaohang)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.TKND)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.TKND)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.CodeVoucher)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CodeVoucher)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IDOP }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
