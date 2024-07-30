@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/mystyle.css" />
+</head>
+<body>
+    <style>
+        nav {
+            padding-bottom: 50px;
+        }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            nav a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+
+                nav a:hover {
+                    background-color: #333;
+                    color: #fff;
+                }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="/Admin/TrangChuAdmin/TrangChuAdmin">Trang chủ cho Admin</a></li>
+            <li><a href="/Admin/AdminUsers/Index">Quản lý admin</a></li>
+            <li><a href="/Admin/Users/Index">Quản lý người dùng</a></li>
+            <li><a href="/Admin/Admin/AdminSanPham">Quản lý Sản phẩm</a></li>
+            <li><a href="/Admin/OrderProducts/Index">Quản lý đơn hàng</a></li>
+            <li><a href="/Admin/DetailProducts/Index">Quản lý chi tiết đơn hàng</a></li>
+            <li><a href="/Admin/Vouchers/Index">Quản lý voucher</a></li>
+            <li><a href="/User/DangNhap">Đăng Nhập</a></li>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="contain">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>
+                        Địa chỉ: 828 Đường Sư Vạn Hạnh, Thành phố Hồ Chí Minh
+                        <br />
+                        Điện thoại: 0123456789
+                        <br />
+                        Email: nhomB09@gmail.com
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Bản quyền thuộc về nhóm B09</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

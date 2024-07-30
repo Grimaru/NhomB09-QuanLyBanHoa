@@ -1,0 +1,154 @@
+﻿@model demo2.Models.Cart
+
+@{
+    ViewBag.Title = "ShowCart";
+}
+
+@{
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng - La vie rose</title>
+    <link rel="stylesheet" href="~/Content/Cart.css">
+    <style>
+        .search-form {
+            display: flex;
+            align-items: center;
+        }
+
+            .search-form input[type="text"] {
+                flex-grow: 1;
+                margin-right: 5px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div>
+                La vie rose
+                <div style="font-size: 16px; font-weight: normal;color: #777">FLOWER BOUTIQUE</div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/Home/TrangChu">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="/Product/SanPham">Sản phẩm</a></li>
+                <li><a href="">Hoa sự kiện</a></li>
+                <li><a href="">Chuyện Hoa Lá</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <form action="@Url.Action("TimTheoTen", "Product")" method="get" class="search-form">
+                <input type="text" name="_name" />
+                <input type="submit" value="🔍" />
+            </form>
+            <span class="icon"><a href="/User/DangNhap">👤</a></span>
+            <span class="icon"><a href="/Shopping/ShowCart">🛒<span id="cart-count"></span>@Html.Action("BagCart", "Shopping")</a></span>
+        </div>
+    </header>
+    @if (Model != null)
+    {
+        <main class="cart-container">
+            <h1>Giỏ hàng:</h1>
+            <div class="cart-content">
+                <div class="cart-items">
+                    @foreach (var item in Model.Items)
+                    {
+                        decimal giaSP = item._product.GiaSP ?? 0m; // Use 0 as the default value if GiaSP is null
+                        decimal total = item._quantity * giaSP;
+                        <div class="cart-item">
+                            <img src="@Url.Content(item._product.HinhanhSP)" alt="Sunrise Serenade" class="cart-item-image">
+                            <div class="cart-item-details">
+                                <h2>@Html.DisplayFor(model => item._product.TenSP)</h2>
+                                @using (Html.BeginForm("Update_Cart_Quantity", "Shopping"))
+                                {
+                                    <input type="hidden" value="@item._product.IDSP" name="idPro" />
+                                    <input type="number" value="@item._quantity" name="cartQuantity" />
+                                    <input type="submit" value="Cập Nhật" />
+                                }
+                                <p>@String.Format(format, "{0:c0}", item._product.GiaSP)</p>
+                                <a href="/Shopping/RemoveCart/@item._product.IDSP" class="remove-item">Xóa</a>
+                            </div>
+                            <p class="item-price">@String.Format(format, "{0:c0}", giaSP)</p>
+                        </div>
+                    }
+                </div>
+                <div class="order-summary">
+                    <h2>Thông tin đơn hàng</h2>
+                    <p><strong>Tổng tiền:</strong> @String.Format(format, "{0:c0}", Model.Items.Sum(item => item._quantity * (item._product.GiaSP ?? 0m)))</p>
+                    <p>Phí vận chuyển sẽ được tính ở trang thanh toán.</p>
+                    <label><input type="checkbox"> Xuất hoá đơn</label>
+                    <textarea placeholder="Ghi chú đơn hàng"></textarea>
+
+                    @using (Html.BeginForm("GiamGiaSanPham", "Shopping", FormMethod.Post))
+                    {
+                        <input type="text" placeholder="Nhập mã khuyến mại (nếu có)" name="voucherCode" value="@Request.Form["voucherCode"]" />
+                        <input type="submit" value="Áp dụng" />
+                    }
+
+                    @if (ViewBag.DiscountMessage != null)
+                    {
+                        <p>@ViewBag.DiscountMessage</p>
+                    }
+                    @if (ViewBag.DiscountedTotal != null)
+                    {
+                        <p><strong>Tổng tiền sau giảm giá:</strong> @String.Format(format, "{0:c0}", ViewBag.DiscountedTotal)</p>
+                    }
+
+                    @using (Html.BeginForm("CheckOut", "Shopping"))
+                    {
+                        <table style="border-collapse:separate; border-spacing:5px;">
+                            <tr>
+                                <td>Tên khách hàng:</td>
+                                <td><input type="text" name="TenND" required /></td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ giao hàng:</td>
+                                <td><input type="text" name="Diachigiaohang" required /></td>
+                            </tr>
+                            <tr>
+                                <td>Code Voucher:</td>
+                                <td><input type="text" name="CodeVoucher" value="@Request.Form["voucherCode"]" /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="THANH TOÁN NGAY" class="checkout-btn" />
+                                    <a href="@Url.Action("SanPham", "Product")" class="continue-shopping">Tiếp tục mua hàng</a>
+                                </td>
+                            </tr>
+                        </table>
+                    }
+                </div>
+            </div>
+        </main>
+    }
+    else
+    {
+        @Html.Partial("EmptyCart")
+    }
+    <footer>
+        <div class="footer-section">
+            <h3>La vie rose</h3>
+            <p>1444/257 Trường Sa, Q.Tân Bình, TP.HCM</p>
+            <p>090 8855 914</p>
+            <p>TiệmhoamuaXuan@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>Chăm sóc khách hàng</h3>
+            <p><a href="#">Chính sách mua hàng</a></p>
+            <p><a href="#">Hình thức thanh toán</a></p>
+            <p><a href="#">Liên hệ</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Đăng ký để nhận thông tin</h3>
+            <input type="email" placeholder="email">
+            <button>📧</button>
+        </div>
+    </footer>
+</body>

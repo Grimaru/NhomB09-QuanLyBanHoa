@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "PhanHoi";
+    Layout = "~/Views/Shared/PhanHoiLayout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+<link rel="stylesheet" href="~/Content/phanhoi.css" />
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container d-flex justify-content-between aligin-items-center">
+                <a href="/Home/TrangChu" id="logo">TRỞ VỀ TRANG CHỦ</a>
+                <button id="switch-mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+        <div id="content" class="container">
+
+            <div id="cmt">
+                <h3 style="text-align: center">Đoàn Kết Bảo Vệ Môi Trường</h3>
+                <img src="~/Images/imgbvmt.jpg" style="height: 500px; width: 800px; padding: 0px 80px;"/>
+                <p style="padding: 10px 50px;">
+                    Bảo vệ môi trường là một hành động rất quan trọng đối với tất cả mọi người. Nếu mọi người không đoàn kết bảo vệ môi trường thì thế giới ngày nay sẽ như thế nào? Hãy tự hỏi mình câu hỏi này. Bây giờ, đã có nhiều nơi môi trường bị ô nhiễm bởi những người muốn thế giới ô nhiễm này xảy ra. Vậy tại sao những người nhìn thấy điều này không nói gì nhưng vẫn làm theo những hành động này? Những người gây ô nhiễm môi trường bây giờ nhiều hơn những người muốn bảo vệ môi trường. Bạn có biết ô nhiễm môi trường có tác hại như thế nào đối với chúng ta không? Vì vậy chúng ta hãy đoàn kết để bảo vệ môi trường!
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script>
+    const body = document.body;
+    const switch_mode = document.querySelector('#switch-mode i');
+    switch_mode.addEventListener('click', () => {
+        body.classList.toggle('dark');
+        switch_mode.classList.toggle('bi-moon-fill')
+        switch_mode.classList.toggle('bi-brightness-high-fill')
+    });
+</script>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<demo2.Models.Product>
+
+@{
+    ViewBag.Title = "TimTheoGia";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+
+@{
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+}
+
+<link rel="stylesheet" href="~/Content/sanpham.css" />
+
+<div>
+    <img src="~/Images/s16.jpg" style="width: 100%; height: 500px; padding: 20px 0;" />
+</div>
+
+@using (Html.BeginForm("TimTheoGia", "Product"))
+{
+    <div style="font-size: 20px; padding: 50px 50px;">
+        <a href="/Product/TimTheoTen" class="btn btn-default">Tìm Theo Tên</a>
+        <text>Từ</text>
+        <input type="number" name="min" />
+        <text>Đến</text>
+        <input type="number" name="max" />
+        <input type="submit" value="Tìm kiếm" />
+    </div>
+
+    <div class="wrapper" style="padding: 100px 0px;">
+        <div class="headline">
+            <h3> Sản phẩm </h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <ul class="products">
+                    @foreach (var sp in Model)
+                    {
+                        <li>
+                            <div class="product-item">
+                                <a href="" class="product-thumb">
+                                    <img src="@Url.Content(sp.HinhanhSP)" alt="">
+                                </a>
+                                <a href="/Shopping/AddToCart/@sp.IDSP" class="buy-now">Mua Ngay</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-name"><p>@Html.DisplayFor(model => sp.TenSP)</p></a>
+                                <div class="product-price">
+                                    <p>@String.Format(format, "{0:c0}", sp.GiaSP)</p>
+                                </div>
+                            </div>
+                            <div>
+                                @Html.ActionLink("Chi tiết", "Details", new { id = sp.IDSP })
+                            </div>
+                        </li>
+
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,58 @@
+﻿@model demo2.Models.Voucher
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Voucher</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.CodeVoucher)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CodeVoucher)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PhantramVoucher)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PhantramVoucher)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HansudungVoucher)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HansudungVoucher)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Tinhtrang)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tinhtrang)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IDVoucher }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

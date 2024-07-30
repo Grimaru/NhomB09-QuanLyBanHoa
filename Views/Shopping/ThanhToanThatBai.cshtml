@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ThanhToanThatBai</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <style>
+        a:hover {
+            color: gainsboro;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+    <div style="text-align: center;">
+        <h2>Thanh Toán Thất Bại</h2>
+        <h4>Vui lòng kiểm tra lại thông tin của bạn</h4>
+        <div>
+            <a href="@Url.Action("ShowCart" ,"Shopping")" style="text-decoration: none">Tiếp tục <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+</body>
+</html>

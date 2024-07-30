@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/mystyle.css" />
+</head>
+<body>
+
+    <div class="top">
+        <ul style="display: flex; list-style: none; justify-content: space-evenly">
+            <li><img src="~/Images/logo1.jpg" class="logo" /></li>
+
+            <li>
+                <div class="wrap">
+                    <header>
+                        <div class="inner-header">
+                            <div id="header">
+                                <div class="wrap">
+                                    <ul id="main-menu">
+                                        <li><a href="/Home/TrangChu">TRANG CHỦ</a></li>
+                                        <li><a href="/Product/SanPham">SẢN PHẨM</a></li>
+                                        <li><a href="/Home/PhanHoi">THÔNG TIN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </li>
+
+            <li>
+                <div style="padding-top: 10px">
+                    <ul style="display: flex; list-style: none; font-family: 'Sans Serif Collection'; font-size: 15px">
+                        <li>
+                        <a class="btn btn-success" href="/Shopping/ShowCart"><span class="glyphicon glyphicon-shopping-cart"></span>
+                            </a>
+                        @Html.Action("BagCart", "Shopping")
+                        </li> 
+                        <li style="padding-left: 20px;">
+                            @if (Session["TKND"] != null)
+                            {
+                                <div style="display: flex;">
+                                    <p style="padding-right: 20px;"><text>Xin Chào, </text>@Session["TKND"]</p>
+                                    <a class="btn btn-success" href="@Url.Action("LogOutUser", "User")"><span class="glyphicon glyphicon-log-out"></span> Đăng Xuất </a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    <a class="btn btn-success" href="/User/DangNhap"><span class="glyphicon glyphicon-user"></span> Đăng Nhập </a>
+                                    <a class="btn btn-success" href="/User/DangKy"><span class="glyphicon glyphicon-log-in"></span> Đăng Ký </a>
+                                </div>
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+        <footer>
+            <div class="contain">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <h3>Thông tin liên hệ</h3>
+                        <p>
+                            Địa chỉ: 828 Đường Sư Vạn Hạnh, Thành phố Hồ Chí Minh
+                            <br />
+                            Điện thoại: 0123456789
+                            <br />
+                            Email: nhom7@gmail.com
+                        </p>
+                    </div>
+                    <div class="footer-right">
+                        <h3>Kết nối với chúng tôi</h3>
+                        <div class="social-media">
+                            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2024 Bản quyền thuộc về nhóm B09</p>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
