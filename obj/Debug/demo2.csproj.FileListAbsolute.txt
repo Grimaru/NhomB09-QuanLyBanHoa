@@ -1,0 +1,630 @@
+D:\code thêm\Đồ án\demo2\demo2\bin\demo2.dll.config
+D:\code thêm\Đồ án\demo2\demo2\bin\demo2.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\demo2.pdb
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csc.exe
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csc.exe.config
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csc.rsp
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csi.exe
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csi.exe.config
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\csi.rsp
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.AppContext.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Console.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Net.Http.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\vbc.exe
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\vbc.exe.config
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\vbc.rsp
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+D:\code thêm\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+D:\code thêm\Đồ án\demo2\demo2\bin\Antlr3.Runtime.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\EntityFramework.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\Newtonsoft.Json.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Helpers.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Mvc.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Optimization.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Razor.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\WebGrease.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\EntityFramework.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Helpers.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Mvc.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Optimization.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.Razor.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\Newtonsoft.Json.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\Antlr3.Runtime.pdb
+D:\code thêm\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\code thêm\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+D:\code thêm\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+D:\code thêm\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.CopyComplete
+D:\code thêm\Đồ án\demo2\demo2\obj\Debug\demo2.dll
+D:\code thêm\Đồ án\demo2\demo2\obj\Debug\demo2.pdb
+D:\code thêm\Đồ án\demo2\demo2\bin\PagedList.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\PagedList.Mvc.dll
+D:\code thêm\Đồ án\demo2\demo2\bin\PagedList.xml
+D:\code thêm\Đồ án\demo2\demo2\bin\PagedList.Mvc.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll.config
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.pdb
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe.config
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.rsp
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe.config
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.rsp
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.AppContext.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Console.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Http.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe.config
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.rsp
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\WebGrease.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.pdb
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.dll
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.pdb
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll.config
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.pdb
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe.config
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.rsp
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe.config
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.rsp
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.AppContext.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Console.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Http.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe.config
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.rsp
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\WebGrease.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.pdb
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.Up2Date
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.dll
+C:\Users\ATUS\Desktop\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.pdb
+D:\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.Up2Date
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll.config
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\demo2.pdb
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.exe.config
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csc.rsp
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.exe.config
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\csi.rsp
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.AppContext.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Console.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Http.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.exe.config
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\vbc.rsp
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\WebGrease.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\EntityFramework.SqlServer.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\PagedList.Mvc.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Helpers.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Mvc.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Optimization.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.Razor.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Newtonsoft.Json.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Antlr3.Runtime.pdb
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.csproj.Up2Date
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.dll
+C:\Users\ATUS\Desktop\HUFLIT\Năm 2\HK1\LTWEB\Đồ án\demo2\demo2\obj\Debug\demo2.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\demo2.dll.config
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\demo2.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\demo2.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.exe
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.exe.config
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.rsp
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.exe
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.exe.config
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.rsp
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.AppContext.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Console.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Net.Http.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.exe
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.exe.config
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.rsp
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Antlr3.Runtime.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\BouncyCastle.Cryptography.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.SqlServer.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\ExtendedNumerics.BigDecimal.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\MathNet.Numerics.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Microsoft.IO.RecyclableMemoryStream.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Newtonsoft.Json.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\PagedList.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\PagedList.Mvc.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\SixLabors.Fonts.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\SixLabors.ImageSharp.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Buffers.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Memory.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Numerics.Vectors.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.AccessControl.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Pkcs.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Xml.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Principal.Windows.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Text.Encoding.CodePages.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Threading.Tasks.Extensions.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.ValueTuple.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Helpers.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Mvc.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Optimization.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Razor.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\WebGrease.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Xceed.Document.NET.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Xceed.Words.NET.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\BouncyCastle.Cryptography.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.SqlServer.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\ExtendedNumerics.BigDecimal.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\MathNet.Numerics.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Microsoft.IO.RecyclableMemoryStream.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\PagedList.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\PagedList.Mvc.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\SixLabors.Fonts.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\SixLabors.ImageSharp.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Buffers.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Memory.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Numerics.Vectors.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.AccessControl.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Pkcs.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Xml.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Security.Principal.Windows.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Text.Encoding.CodePages.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Threading.Tasks.Extensions.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.ValueTuple.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Helpers.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Mvc.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Optimization.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.Razor.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Newtonsoft.Json.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Antlr3.Runtime.pdb
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.Up2Date
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.dll
+E:\Công nghệ phần mềm\Lí thuyết\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\demo2.dll.config
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\demo2.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\demo2.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\BouncyCastle.Cryptography.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\ExtendedNumerics.BigDecimal.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\MathNet.Numerics.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\PagedList.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\SixLabors.Fonts.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\SixLabors.ImageSharp.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Memory.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Xml.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Xceed.Document.NET.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Xceed.Words.NET.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\BouncyCastle.Cryptography.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Enums.NET.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\ExtendedNumerics.BigDecimal.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\MathNet.Numerics.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.Core.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OOXML.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXml4Net.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\NPOI.OpenXmlFormats.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\PagedList.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\SixLabors.Fonts.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\SixLabors.ImageSharp.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Memory.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.AccessControl.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Pkcs.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Cryptography.Xml.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Security.Principal.Windows.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Text.Encoding.CodePages.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.csproj.Up2Date
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.dll
+C:\Users\Admin\Desktop\Đồ án (emergency)\Đồ án (emergency)\demo2\demo2\obj\Debug\demo2.pdb

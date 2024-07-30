@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="doanModelStoreContainer" CdmEntityContainer="doanEntities">
+    <EntitySetMapping Name="AdminUsers">
+      <EntityTypeMapping TypeName="doanModel.AdminUser">
+        <MappingFragment StoreEntitySet="AdminUser">
+          <ScalarProperty Name="TenTK" ColumnName="TenTK" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailProducts">
+      <EntityTypeMapping TypeName="doanModel.DetailProduct">
+        <MappingFragment StoreEntitySet="DetailProduct">
+          <ScalarProperty Name="CodeVoucher" ColumnName="CodeVoucher" />
+          <ScalarProperty Name="IDVoucher" ColumnName="IDVoucher" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDSP" ColumnName="IDSP" />
+          <ScalarProperty Name="IDOP" ColumnName="IDOP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProducts">
+      <EntityTypeMapping TypeName="doanModel.OrderProduct">
+        <MappingFragment StoreEntitySet="OrderProduct">
+          <ScalarProperty Name="TenND" ColumnName="TenND" />
+          <ScalarProperty Name="CodeVoucher" ColumnName="CodeVoucher" />
+          <ScalarProperty Name="IDVoucher" ColumnName="IDVoucher" />
+          <ScalarProperty Name="IDOP" ColumnName="IDOP" />
+          <ScalarProperty Name="NgayDH" ColumnName="NgayDH" />
+          <ScalarProperty Name="IDUser" ColumnName="IDUser" />
+          <ScalarProperty Name="Diachigiaohang" ColumnName="Diachigiaohang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="doanModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="IDVoucher" ColumnName="IDVoucher" />
+          <ScalarProperty Name="IDSP" ColumnName="IDSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="MotaSP" ColumnName="MotaSP" />
+          <ScalarProperty Name="GiaSP" ColumnName="GiaSP" />
+          <ScalarProperty Name="HinhanhSP" ColumnName="HinhanhSP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="doanModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="IDUser" ColumnName="IDUser" />
+          <ScalarProperty Name="TKND" ColumnName="TKND" />
+          <ScalarProperty Name="TenND" ColumnName="TenND" />
+          <ScalarProperty Name="SDTND" ColumnName="SDTND" />
+          <ScalarProperty Name="EmailND" ColumnName="EmailND" />
+          <ScalarProperty Name="MatKhauND" ColumnName="MatKhauND" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vouchers">
+      <EntityTypeMapping TypeName="doanModel.Voucher">
+        <MappingFragment StoreEntitySet="Voucher">
+          <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+          <ScalarProperty Name="HansudungVoucher" ColumnName="HansudungVoucher" />
+          <ScalarProperty Name="PhantramVoucher" ColumnName="PhantramVoucher" />
+          <ScalarProperty Name="CodeVoucher" ColumnName="CodeVoucher" />
+          <ScalarProperty Name="IDVoucher" ColumnName="IDVoucher" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

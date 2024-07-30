@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="97942c09bf0840e0b4463477824ce9b9" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="doanModel.AdminUser" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="doanModel.DetailProduct" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="doanModel.OrderProduct" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="doanModel.Product" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="doanModel.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="doanModel.FK__DetailProd__IDOP__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="doanModel.FK__DetailProd__IDSP__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="doanModel.FK__OrderProd__IDUse__5165187F" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="doanModel.Voucher" Width="1.5" PointX="0.75" PointY="5.25" />
+        <AssociationConnector Association="doanModel.FK__Product__IDVouch__5070F446" />
+        <AssociationConnector Association="doanModel.FK_DetailProduct_Voucher" />
+        <AssociationConnector Association="doanModel.FK_OrderProduct_Voucher" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

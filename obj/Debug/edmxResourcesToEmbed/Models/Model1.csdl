@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="doanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AdminUser">
+    <Key>
+      <PropertyRef Name="TenTK" />
+    </Key>
+    <Property Name="TenTK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MatKhau" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DetailProduct">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDSP" Type="Int32" />
+    <Property Name="IDOP" Type="Int32" />
+    <Property Name="Soluong" Type="Int32" />
+    <Property Name="TongTien" Type="Double" />
+    <NavigationProperty Name="OrderProduct" Relationship="Self.FK__DetailProd__IDOP__5535A963" FromRole="DetailProduct" ToRole="OrderProduct" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__DetailProd__IDSP__5441852A" FromRole="DetailProduct" ToRole="Product" />
+    <Property Name="IDVoucher" Type="Int32" />
+    <NavigationProperty Name="Voucher" Relationship="doanModel.FK_DetailProduct_Voucher" FromRole="DetailProduct" ToRole="Voucher" />
+    <Property Name="CodeVoucher" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="OrderProduct">
+    <Key>
+      <PropertyRef Name="IDOP" />
+    </Key>
+    <Property Name="IDOP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayDH" Type="DateTime" Precision="0" />
+    <Property Name="IDUser" Type="Int32" />
+    <Property Name="Diachigiaohang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DetailProducts" Relationship="Self.FK__DetailProd__IDOP__5535A963" FromRole="OrderProduct" ToRole="DetailProduct" />
+    <NavigationProperty Name="User" Relationship="Self.FK__OrderProd__IDUse__5165187F" FromRole="OrderProduct" ToRole="User" />
+    <Property Name="IDVoucher" Type="Int32" />
+    <NavigationProperty Name="Voucher" Relationship="doanModel.FK_OrderProduct_Voucher" FromRole="OrderProduct" ToRole="Voucher" />
+    <Property Name="CodeVoucher" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="TenND" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="IDSP" />
+    </Key>
+    <Property Name="IDSP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenSP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MotaSP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GiaSP" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="HinhanhSP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DetailProducts" Relationship="Self.FK__DetailProd__IDSP__5441852A" FromRole="Product" ToRole="DetailProduct" />
+    <Property Name="IDVoucher" Type="Int32" />
+    <NavigationProperty Name="Voucher" Relationship="doanModel.FK__Product__IDVouch__5070F446" FromRole="Product" ToRole="Voucher" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IDUser" />
+    </Key>
+    <Property Name="IDUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TKND" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenND" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SDTND" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmailND" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MatKhauND" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="OrderProducts" Relationship="Self.FK__OrderProd__IDUse__5165187F" FromRole="User" ToRole="OrderProduct" />
+  </EntityType>
+  <Association Name="FK__DetailProd__IDOP__5535A963">
+    <End Role="OrderProduct" Type="Self.OrderProduct" Multiplicity="0..1" />
+    <End Role="DetailProduct" Type="Self.DetailProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderProduct">
+        <PropertyRef Name="IDOP" />
+      </Principal>
+      <Dependent Role="DetailProduct">
+        <PropertyRef Name="IDOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailProd__IDSP__5441852A">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="DetailProduct" Type="Self.DetailProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="IDSP" />
+      </Principal>
+      <Dependent Role="DetailProduct">
+        <PropertyRef Name="IDSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderProd__IDUse__5165187F">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="OrderProduct" Type="Self.OrderProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="IDUser" />
+      </Principal>
+      <Dependent Role="OrderProduct">
+        <PropertyRef Name="IDUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="doanEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdminUsers" EntityType="Self.AdminUser" />
+    <EntitySet Name="DetailProducts" EntityType="Self.DetailProduct" />
+    <EntitySet Name="OrderProducts" EntityType="Self.OrderProduct" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__DetailProd__IDOP__5535A963" Association="Self.FK__DetailProd__IDOP__5535A963">
+      <End Role="OrderProduct" EntitySet="OrderProducts" />
+      <End Role="DetailProduct" EntitySet="DetailProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailProd__IDSP__5441852A" Association="Self.FK__DetailProd__IDSP__5441852A">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="DetailProduct" EntitySet="DetailProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderProd__IDUse__5165187F" Association="Self.FK__OrderProd__IDUse__5165187F">
+      <End Role="User" EntitySet="Users" />
+      <End Role="OrderProduct" EntitySet="OrderProducts" />
+    </AssociationSet>
+    <EntitySet Name="Vouchers" EntityType="doanModel.Voucher" />
+    <AssociationSet Name="FK__Product__IDVouch__5070F446" Association="doanModel.FK__Product__IDVouch__5070F446">
+      <End Role="Voucher" EntitySet="Vouchers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailProduct_Voucher" Association="doanModel.FK_DetailProduct_Voucher">
+      <End Role="Voucher" EntitySet="Vouchers" />
+      <End Role="DetailProduct" EntitySet="DetailProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderProduct_Voucher" Association="doanModel.FK_OrderProduct_Voucher">
+      <End Role="Voucher" EntitySet="Vouchers" />
+      <End Role="OrderProduct" EntitySet="OrderProducts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Voucher">
+    <Key>
+      <PropertyRef Name="IDVoucher" />
+    </Key>
+    <Property Name="IDVoucher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeVoucher" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="PhantramVoucher" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="HansudungVoucher" Type="DateTime" Precision="3" />
+    <Property Name="Tinhtrang" Type="Boolean" />
+    <NavigationProperty Name="Products" Relationship="doanModel.FK__Product__IDVouch__5070F446" FromRole="Voucher" ToRole="Product" />
+    <NavigationProperty Name="DetailProducts" Relationship="doanModel.FK_DetailProduct_Voucher" FromRole="Voucher" ToRole="DetailProduct" />
+    <NavigationProperty Name="OrderProducts" Relationship="doanModel.FK_OrderProduct_Voucher" FromRole="Voucher" ToRole="OrderProduct" />
+  </EntityType>
+  <Association Name="FK__Product__IDVouch__5070F446">
+    <End Type="doanModel.Voucher" Role="Voucher" Multiplicity="0..1" />
+    <End Type="doanModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Voucher">
+        <PropertyRef Name="IDVoucher" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="IDVoucher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailProduct_Voucher">
+    <End Type="doanModel.Voucher" Role="Voucher" Multiplicity="0..1" />
+    <End Type="doanModel.DetailProduct" Role="DetailProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Voucher">
+        <PropertyRef Name="IDVoucher" />
+      </Principal>
+      <Dependent Role="DetailProduct">
+        <PropertyRef Name="IDVoucher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderProduct_Voucher">
+    <End Type="doanModel.Voucher" Role="Voucher" Multiplicity="0..1" />
+    <End Type="doanModel.OrderProduct" Role="OrderProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Voucher">
+        <PropertyRef Name="IDVoucher" />
+      </Principal>
+      <Dependent Role="OrderProduct">
+        <PropertyRef Name="IDVoucher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
