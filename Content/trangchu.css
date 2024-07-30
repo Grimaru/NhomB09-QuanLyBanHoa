@@ -1,0 +1,160 @@
+﻿
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fceef1;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img {
+        max-height: 60px;
+        margin-right: 10px;
+    }
+
+    .logo div {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+    nav ul li {
+        margin: 0;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+            nav ul li a:hover {
+                color: #e91e63;
+            }
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+    .icons span {
+        cursor: pointer;
+    }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+    .footer-section h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        margin: 5px 0;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .footer-section a:hover {
+            color: #e91e63;
+        }
+
+    .footer-section input {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .footer-section button {
+        padding: 10px;
+        background-color: #e91e63;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .footer-section button:hover {
+            background-color: #d81b60;
+        }
+
+.main-image {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.image-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: white; 
+    position: relative;
+    overflow: hidden;
+}
+
+#image1 {
+    opacity: 1; 
+}
+
+.additional-images-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+    overflow-x: auto; 
+    margin-top: 1cm; 
+}
+
+    .additional-images-container img {
+        width: calc(50vw); 
+        height: 50vh;
+        object-fit: cover;
+        margin-right: 0cm;
+        margin-right: 0cm; 
+    }
